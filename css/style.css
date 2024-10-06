@@ -1,0 +1,158 @@
+/* Import font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* container */
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+  padding-top: 136px;
+}
+/* header */
+.header {
+  background-color: rgba(55, 45, 35, 1);
+  padding: 32px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: inherit;
+  width: inherit;
+  height: 146px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.header_ul {
+  display: flex;
+  gap: 48px;
+}
+.header_ul_a {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgba(252, 194, 27, 1);
+}
+.header_ul_a:hover {
+  color: blue;
+}
+.active {
+  color: rgba(237, 108, 48, 1);
+}
+.active:hover {
+  color: rgba(237, 108, 48, 1);
+}
+/* ჰოვერზე იგივე ფერად იმიტომ დავტოვე, რომ აქტიურ ფეიჯზე, ჩემი აზრით ფერი არ უნდა შეიცვალოს კურსორზე რომ გავარკვიოთ თუ რომელ ფეიჯზე ვართ რეალუად <3 */
+.class_bag {
+  color: rgba(252, 194, 27, 1);
+  font-size: 30px;
+}
+.class_bag:hover {
+  color: blue;
+  cursor: pointer;
+}
+/* sectionN1 */
+.section_n_one {
+  width: 100%;
+  height: 640px;
+  position: relative;
+}
+.sectionCoverImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section_one_article {
+  width: 762px;
+  height: 208px;
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 1);
+  background-color: rgba(252, 194, 27, 1);
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.5) inset;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding: 76px 40px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section_one_article_header {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: rgba(255, 255, 255, 1);
+}
+/*sectionN2*/
+.section_n_two {
+  width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  gap: 100px;
+}
+.block_cover {
+  width: 550px;
+  height: 400px;
+}
+.block_cover_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section_n_two_article {
+  width: 550px;
+}
+.section_n_two_header {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(55, 45, 35, 1);
+  margin-bottom: 40px;
+}
+.section_n_two_paragraph {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(198, 92, 20, 1);
+}
+/* footer */
+.footer {
+  background-color: rgba(55, 45, 35, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 80px;
+}
+.footer_pages_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer_pages_ul_a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(252, 194, 27, 1);
+}
+.footer_pages_ul_a:hover {
+  color: blue;
+}
+.footer_social_links_ul {
+  display: flex;
+  gap: 24px;
+}
+.social_links {
+  font-size: 26.67px;
+  color: rgba(252, 194, 27, 1);
+}
+.social_links:hover {
+  color: blue;
+}
+/* კოდი ძალიან რთულ სიტუაციაში დავწერე, იმედი მაქვს რომ სწორად მიწერია, თუ რამე შეცდომაა, იმედაი უმნიშვნელოა<3
+ */
+ /* COde ent time : 05:22 a.m */
